@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'httpserver'
+rescue LoadError
+  require 'rubygems'
+  require 'httpserver'
+end
+
+puts "woot"
+#more code goes here
