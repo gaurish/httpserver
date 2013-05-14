@@ -49,7 +49,7 @@ module Httpserver
 					File.open(resource, "rb") do |file|
 						while (!file.eof?) do
 							buffer = file.read(256)
-							ession.write(buffer)
+							session.write(buffer)
 						end
 			    end
 			  end
