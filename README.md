@@ -12,7 +12,7 @@ Add this line to your application's Gemfile:
 
 go to any directory
 
-`httpserver .`
+`httpserver`
 
 will start a webserver in that directory
 
