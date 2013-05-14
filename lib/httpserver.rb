@@ -1,7 +1,8 @@
 require 'socket'
-require "./lib/httpserver/mime"
-require "./lib/httpserver/version"
-require "./lib/httpserver/response"
-require "./lib/httpserver/webserver"
+
+require "httpserver/mime"
+require "httpserver/version"
+require "httpserver/response"
+require "httpserver/webserver"
 
 Httpserver::WebServer.new

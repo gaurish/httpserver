@@ -6,6 +6,3 @@ rescue LoadError
   require 'rubygems'
   require 'httpserver'
 end
-
-puts "woot"
-#more code goes here

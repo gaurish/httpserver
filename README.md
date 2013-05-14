@@ -6,15 +6,7 @@ Start a http server in any directory
 
 Add this line to your application's Gemfile:
 
-    gem 'httpserver'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install httpserver
+    gem install httpserver
 
 ## Usage
 
