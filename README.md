@@ -12,9 +12,15 @@ Add this line to your application's Gemfile:
 
 go to any directory
 
-`httpserver .`
+`httpserver`
 
-will start a webserver in that directory
+will start a webserver or port 8080 which will server the current directory. 
+
+You can change port by 
+
+`httpserver 3001' 
+
+to start the server on port 3001. 
 
 ## Contributing
 

@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Mark Gandolfo"]
   spec.email         = ["mark@aussiev8.com.au"]
   spec.description   = %q{Start a http server in any directory}
-  spec.summary       = %q{Start a http server in any directory with one simple command}
+  spec.summary       = %q{Start a http server in any directory with the simple command httpserver}
   spec.homepage      = "https://github.com/markgandolfo/httpserver"
   spec.license       = "MIT"
 
