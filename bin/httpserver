@@ -1,8 +1,4 @@
 #!/usr/bin/env ruby
 
-begin
-  require 'httpserver'
-rescue LoadError
-  require 'rubygems'
-  require 'httpserver'
-end
+require 'httpserver'
+Httpserver::WebServer.new

@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
   spec.email         = ["mark@aussiev8.com.au"]
   spec.description   = %q{Start a http server in any directory}
   spec.summary       = %q{Start a http server in any directory with one simple command}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/markgandolfo/httpserver"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib", "lib/httpserver"]
+  spec.require_paths = ["lib", "httpserver"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"

@@ -1,10 +1,12 @@
+require 'socket'
 module Httpserver
 	class WebServer
 		include Mime
 		include Response
 		
 		def initialize
-			port = ARGV.first || 8080
+			port = ARGV.first.to_i
+			port = 8080 if port == 0
 			webserver = TCPServer.new('0.0.0.0', port)
 			puts "Listening on http://0.0.0.0:#{port}"
 			puts "Ctrl + c will break"
